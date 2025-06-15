@@ -22,6 +22,7 @@ public class SpringBootMessageSourceTest {
     void testHelloJoko() {
         Assertions.assertEquals("Hello Wiwok-Detox", sampleSource.haloJoko(Locale.ENGLISH));
         Assertions.assertEquals("Halo Wiwok-Detox", sampleSource.haloJoko(new Locale("in_ID")));
+//        Assertions.assertEquals("こにちは Wiwok-Detox", sampleSource.haloJoko(new Locale("ja")));
     }
 
     @SpringBootApplication
