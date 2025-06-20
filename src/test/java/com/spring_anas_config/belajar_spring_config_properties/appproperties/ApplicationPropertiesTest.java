@@ -16,8 +16,8 @@ public class ApplicationPropertiesTest {
 
     @Test
     void testApplicationProperties(){
-        String environmentProperty = environment.getProperty("spring.application.name");
-        Assertions.assertEquals("belajar-spring-config-properties", environmentProperty);
+        String environmentProperty = environment.getProperty("application.name");
+        Assertions.assertEquals("Belajar Spring Boot", environmentProperty);
         System.out.println(environmentProperty);
     }
 

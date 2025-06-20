@@ -1,0 +1,4 @@
+application:
+  name: Anjay wak Belajar Spring Boot using Yaml
+  version: 69
+  production-mode: true
